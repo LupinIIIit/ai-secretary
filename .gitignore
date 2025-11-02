@@ -1,0 +1,40 @@
+# macOS
+.DS_Store
+.AppleDouble
+*.swp
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.venv/
+.env
+.env.*
+
+# Node/JS
+node_modules/
+npm-debug.log*
+yarn.lock
+pnpm-lock.yaml
+dist/
+build/
+
+# Logs & runtime
+*.log
+*.pid
+
+# IDE / Editor
+.vscode/
+.idea/
+*.iml
+
+# Docker & infra
+*.local.yaml
+docker-compose.override.yml
+
+# Misc
+tmp/
+.cache/
+coverage/

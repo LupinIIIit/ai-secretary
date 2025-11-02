@@ -1,0 +1,20 @@
+# Prettier configuration – SV Software
+printWidth: 100
+tabWidth: 2
+useTabs: false
+semi: true
+singleQuote: false
+trailingComma: "es5"
+bracketSpacing: true
+arrowParens: "always"
+endOfLine: "lf"
+
+# Support per MD e YAML
+overrides:
+  - files: "*.md"
+    options:
+      proseWrap: "always"
+      tabWidth: 2
+  - files: "*.yml"
+    options:
+      tabWidth: 2
