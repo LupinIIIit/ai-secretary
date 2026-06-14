@@ -1,0 +1,14 @@
+shell e uitility 
+/usr/local/sbin
+/usr/local/sbin/backup_nas.sh 
+/usr/local/sbin/check_raid_daily.sh 
+/usr/local/sbin/raid_report_weekly.sh 
+/usr/local/sbin/restore_borg_backup.sh
+timer e service
+/etc/systemd/system/
+check-raid.service
+check-raid.timer
+backup-nas.service
+backup-nas.timer
+raid-report.service
+raid-report.timer
